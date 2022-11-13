@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:lang="http://www.springframework.org/schema/lang" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd"> <!-- bean definitions here -->
+        
+        <bean id="bean" class="com.bean.Player">
+        <property name="name" value="ms dohni"> </property>
+        <property name="score" value="102"> </property>
+        <property name="average" value="55.214"> </property>
+        <property name="runs" value="15462"> </property>
+        
+        </bean>
+        
+</beans>
